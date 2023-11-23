@@ -11,7 +11,10 @@ import SwiftUI
 struct MobileDevelopCourse_IOS_1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HStack(alignment: .top){
+                ContentView()
+                AppointmentCardView()
+            }
         }
     }
 }
