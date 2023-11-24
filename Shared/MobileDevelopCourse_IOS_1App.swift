@@ -11,10 +11,12 @@ import SwiftUI
 struct MobileDevelopCourse_IOS_1App: App {
     var body: some Scene {
         WindowGroup {
-            HStack(alignment: .top){
+            VStack(alignment: .leading, spacing: 16.0){
                 ContentView()
                 AppointmentCardView()
+                
             }
+            Spacer()
         }
     }
 }
