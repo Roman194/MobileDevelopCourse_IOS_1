@@ -28,6 +28,18 @@
 		845301102B11D613005E2D6B /* SingleThemeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453010E2B11D613005E2D6B /* SingleThemeCardView.swift */; };
 		845301162B11F892005E2D6B /* BaseFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301152B11F892005E2D6B /* BaseFonts.swift */; };
 		845301172B11F892005E2D6B /* BaseFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301152B11F892005E2D6B /* BaseFonts.swift */; };
+		8453011A2B11FE65005E2D6B /* BaseNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301192B11FE65005E2D6B /* BaseNumeral.swift */; };
+		8453011B2B11FE65005E2D6B /* BaseNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301192B11FE65005E2D6B /* BaseNumeral.swift */; };
+		8453011D2B120760005E2D6B /* BaseText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453011C2B120760005E2D6B /* BaseText.swift */; };
+		8453011E2B120760005E2D6B /* BaseText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453011C2B120760005E2D6B /* BaseText.swift */; };
+		845301202B120999005E2D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453011F2B120999005E2D6B /* User.swift */; };
+		845301212B120999005E2D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453011F2B120999005E2D6B /* User.swift */; };
+		845301232B120D97005E2D6B /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301222B120D97005E2D6B /* Appointment.swift */; };
+		845301242B120D97005E2D6B /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301222B120D97005E2D6B /* Appointment.swift */; };
+		845301262B12100F005E2D6B /* AppointmentBeforeDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301252B12100F005E2D6B /* AppointmentBeforeDividerView.swift */; };
+		845301272B12100F005E2D6B /* AppointmentBeforeDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301252B12100F005E2D6B /* AppointmentBeforeDividerView.swift */; };
+		845301292B121028005E2D6B /* AppointmentAfterDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301282B121028005E2D6B /* AppointmentAfterDividerView.swift */; };
+		8453012A2B121028005E2D6B /* AppointmentAfterDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301282B121028005E2D6B /* AppointmentAfterDividerView.swift */; };
 		84E087142B0F493800A879C7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E087132B0F493800A879C7 /* Tests_iOS.swift */; };
 		84E087162B0F493800A879C7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E087152B0F493800A879C7 /* Tests_iOSLaunchTests.swift */; };
 		84E087202B0F493800A879C7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0871F2B0F493800A879C7 /* Tests_macOS.swift */; };
@@ -69,6 +81,12 @@
 		8453010B2B11D0B2005E2D6B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8453010E2B11D613005E2D6B /* SingleThemeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThemeCardView.swift; sourceTree = "<group>"; };
 		845301152B11F892005E2D6B /* BaseFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFonts.swift; sourceTree = "<group>"; };
+		845301192B11FE65005E2D6B /* BaseNumeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNumeral.swift; sourceTree = "<group>"; };
+		8453011C2B120760005E2D6B /* BaseText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseText.swift; sourceTree = "<group>"; };
+		8453011F2B120999005E2D6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		845301222B120D97005E2D6B /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		845301252B12100F005E2D6B /* AppointmentBeforeDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentBeforeDividerView.swift; sourceTree = "<group>"; };
+		845301282B121028005E2D6B /* AppointmentAfterDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAfterDividerView.swift; sourceTree = "<group>"; };
 		84E086FB2B0F493500A879C7 /* MobileDevelopCourse_IOS_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevelopCourse_IOS_1App.swift; sourceTree = "<group>"; };
 		84E086FC2B0F493500A879C7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		84E086FD2B0F493800A879C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				8453010B2B11D0B2005E2D6B /* Theme.swift */,
+				8453011F2B120999005E2D6B /* User.swift */,
+				845301222B120D97005E2D6B /* Appointment.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -150,8 +170,19 @@
 				84E086FC2B0F493500A879C7 /* WelcomeView.swift */,
 				845301072B11CE07005E2D6B /* ThemeCardsView.swift */,
 				845301042B10A414005E2D6B /* SearchDoctorView.swift */,
+				845301252B12100F005E2D6B /* AppointmentBeforeDividerView.swift */,
+				845301282B121028005E2D6B /* AppointmentAfterDividerView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		845301182B11FE29005E2D6B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				845301192B11FE65005E2D6B /* BaseNumeral.swift */,
+				8453011C2B120760005E2D6B /* BaseText.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		84E086F52B0F493500A879C7 = {
@@ -169,6 +200,7 @@
 		84E086FA2B0F493500A879C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				845301182B11FE29005E2D6B /* Constants */,
 				845301142B11F83E005E2D6B /* Views */,
 				8453010A2B11CFF1005E2D6B /* DataModels */,
 				845300FB2B107243005E2D6B /* Colors */,
@@ -379,14 +411,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845301202B120999005E2D6B /* User.swift in Sources */,
 				845300FD2B10725C005E2D6B /* BaseColors.swift in Sources */,
+				8453011D2B120760005E2D6B /* BaseText.swift in Sources */,
 				8453010C2B11D0B2005E2D6B /* Theme.swift in Sources */,
 				845301012B107273005E2D6B /* Colors.swift in Sources */,
+				8453011A2B11FE65005E2D6B /* BaseNumeral.swift in Sources */,
+				845301232B120D97005E2D6B /* Appointment.swift in Sources */,
 				84E087252B0F493800A879C7 /* WelcomeView.swift in Sources */,
+				845301262B12100F005E2D6B /* AppointmentBeforeDividerView.swift in Sources */,
 				845301052B10A414005E2D6B /* SearchDoctorView.swift in Sources */,
 				84E087232B0F493800A879C7 /* MobileDevelopCourse_IOS_1App.swift in Sources */,
 				84E0873E2B0F7EFE00A879C7 /* AppointmentCardView.swift in Sources */,
 				845301162B11F892005E2D6B /* BaseFonts.swift in Sources */,
+				845301292B121028005E2D6B /* AppointmentAfterDividerView.swift in Sources */,
 				845301082B11CE07005E2D6B /* ThemeCardsView.swift in Sources */,
 				8453010F2B11D613005E2D6B /* SingleThemeCardView.swift in Sources */,
 			);
@@ -396,14 +434,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845301212B120999005E2D6B /* User.swift in Sources */,
 				845300FE2B10725C005E2D6B /* BaseColors.swift in Sources */,
+				8453011E2B120760005E2D6B /* BaseText.swift in Sources */,
 				8453010D2B11D0B2005E2D6B /* Theme.swift in Sources */,
 				845301022B107273005E2D6B /* Colors.swift in Sources */,
+				8453011B2B11FE65005E2D6B /* BaseNumeral.swift in Sources */,
+				845301242B120D97005E2D6B /* Appointment.swift in Sources */,
 				84E087262B0F493800A879C7 /* WelcomeView.swift in Sources */,
+				845301272B12100F005E2D6B /* AppointmentBeforeDividerView.swift in Sources */,
 				845301062B10A414005E2D6B /* SearchDoctorView.swift in Sources */,
 				84E087242B0F493800A879C7 /* MobileDevelopCourse_IOS_1App.swift in Sources */,
 				84E0873F2B0F7EFE00A879C7 /* AppointmentCardView.swift in Sources */,
 				845301172B11F892005E2D6B /* BaseFonts.swift in Sources */,
+				8453012A2B121028005E2D6B /* AppointmentAfterDividerView.swift in Sources */,
 				845301092B11CE07005E2D6B /* ThemeCardsView.swift in Sources */,
 				845301102B11D613005E2D6B /* SingleThemeCardView.swift in Sources */,
 			);

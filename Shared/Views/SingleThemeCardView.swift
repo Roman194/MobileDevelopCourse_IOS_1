@@ -5,13 +5,20 @@ struct SingleThemeCardView: View {
     var theme: Theme
     
     var body: some View {
-        VStack(spacing: 8){
-            Button(action:{print("Theme card was clicked")}){
+        VStack(
+            spacing: BaseNumeral.spacingAfterThemeButton
+        ){
+            Button(
+                action:{
+                    print("Theme card was clicked")
+                    
+                }
+            ){
                 Image(theme.icon)
-                    .padding(24)
+                    .padding(BaseNumeral.paddingInsideThemeButton)
             }
             .background(BaseColors.ThemeCardBackground)
-            .cornerRadius(100)
+            .cornerRadius(BaseNumeral.circleButtonCorner)
             .accessibilityLabel(theme.name)
             
             Text(theme.name)

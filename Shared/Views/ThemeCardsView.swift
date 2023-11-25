@@ -11,9 +11,17 @@ struct ThemeCardsView: View {
     ]
     
     var body: some View {
-        HStack(spacing: 13){
-            ForEach(themes.indices){ index in
-                SingleThemeCardView(theme: themes[index])
+        VStack(
+            alignment: .center
+        ){
+            HStack(
+                spacing: BaseNumeral.spacingBetweenThemeCards
+            ){
+                ForEach(
+                    themes.indices
+                ){ index in
+                    SingleThemeCardView(theme: themes[index])
+                }
             }
         }
     }

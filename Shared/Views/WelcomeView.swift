@@ -3,22 +3,30 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    var user: User = User(uIcon: "UserLogo", uName: "James")
+    
     var body: some View {
         HStack(alignment: .top){
-            VStack(alignment: .leading, spacing: 6){
-                Text("Hello,")
+            VStack(
+                alignment: .leading,
+                spacing: BaseNumeral.spacingAfterUserGreeting
+            ){
+                Text(BaseText.greetingText)
                     .font(BaseFonts.regularWelcomeCardText)
                     .foregroundColor(BaseColors.TextSecondary)
                     .accessibilityHidden(true)
-                Text("Hi James")
+                Text(BaseText.greetingBeforeName + user.uName)
                     .font(BaseFonts.boldText)
                     .foregroundColor(BaseColors.TextPrimary)
-                    .accessibilityValue("Hi James")
+                    .accessibilityValue(BaseText.greetingBeforeName + user.uName)
             }
             Spacer()
-            Image("UserLogo")
+            Image(user.uIcon)
                 .clipShape(Circle())
-                .frame(width: 56, height: 56)
+                .frame(
+                    width: BaseNumeral.userIconSize,
+                    height: BaseNumeral.userIconSize
+                )
                 .accessibilityHidden(true)
         }
     }

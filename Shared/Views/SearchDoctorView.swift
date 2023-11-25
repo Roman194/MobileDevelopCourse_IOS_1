@@ -3,21 +3,27 @@ import SwiftUI
 
 struct SearchDoctorView: View {
     var body: some View {
-        Button(action:{print("Search field was clicked")}){
-            HStack(spacing: 12){
+        Button(
+            action:{
+                print(BaseText.searchButtonClick)
+            }
+        ){
+            HStack(
+                spacing: BaseNumeral.paddingAfterSearchIcon
+            ){
                 Image("SearchIcon")
                     .accessibilityHidden(true)
-                Text("Search doctor or health issue")
+                Text(BaseText.searchButtonText)
                     .font(BaseFonts.regularText)
                     .foregroundColor(BaseColors.SearchFieldPrimary)
                     .accessibilityHidden(true)
             }
             Spacer()
         }
-        .padding(16)
+        .padding(BaseNumeral.paddingInsideSearchButton)
         .background(BaseColors.SearchFieldBackground)
-        .cornerRadius(12)
-        .accessibilityLabel("Search doctor or health issue")
+        .cornerRadius(BaseNumeral.buttonCorner)
+        .accessibilityLabel(BaseText.searchButtonText)
     }
 }
 
