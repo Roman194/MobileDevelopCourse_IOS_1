@@ -1,9 +1,3 @@
-//
-//  MobileDevelopCourse_IOS_1App.swift
-//  Shared
-//
-//  Created by Admin on 23.11.2023.
-//
 
 import SwiftUI
 
@@ -11,7 +5,18 @@ import SwiftUI
 struct MobileDevelopCourse_IOS_1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack(alignment: .leading, spacing: 20){
+                VStack(spacing: 32){
+                    WelcomeView()
+                    AppointmentCardView()
+                }
+                VStack(spacing: 24){
+                    SearchDoctorView()
+                    ThemeCardsView()
+                }
+            }
+            .padding(24)
+            Spacer()
         }
     }
 }
