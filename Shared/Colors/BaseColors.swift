@@ -12,5 +12,9 @@ struct BaseColors{
     static let TextPrimary = Colors.Black
     static let TextCardSecondary = Colors.LightBlue
     static let TextCardPrimary = Color(.white)
-    static let TextCardBackground = Color.blue
+    static let TextCardBackground = Colors.Blue
+    static let SearchFieldPrimary = Colors.Grey
+    static let SearchFieldBackground = Colors.LightGrey
+    static let ThemeCardPrimary = Colors.Grey
+    static let ThemeCardBackground = Colors.LightGrey
 }

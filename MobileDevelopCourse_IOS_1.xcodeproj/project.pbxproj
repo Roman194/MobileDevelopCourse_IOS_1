@@ -18,6 +18,14 @@
 		845301012B107273005E2D6B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301002B107273005E2D6B /* Colors.swift */; };
 		845301022B107273005E2D6B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301002B107273005E2D6B /* Colors.swift */; };
 		845301032B107273005E2D6B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301002B107273005E2D6B /* Colors.swift */; };
+		845301052B10A414005E2D6B /* SearchDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301042B10A414005E2D6B /* SearchDoctorView.swift */; };
+		845301062B10A414005E2D6B /* SearchDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301042B10A414005E2D6B /* SearchDoctorView.swift */; };
+		845301082B11CE07005E2D6B /* ThemeCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301072B11CE07005E2D6B /* ThemeCardsView.swift */; };
+		845301092B11CE07005E2D6B /* ThemeCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845301072B11CE07005E2D6B /* ThemeCardsView.swift */; };
+		8453010C2B11D0B2005E2D6B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453010B2B11D0B2005E2D6B /* Theme.swift */; };
+		8453010D2B11D0B2005E2D6B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453010B2B11D0B2005E2D6B /* Theme.swift */; };
+		8453010F2B11D613005E2D6B /* SingleThemeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453010E2B11D613005E2D6B /* SingleThemeCardView.swift */; };
+		845301102B11D613005E2D6B /* SingleThemeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453010E2B11D613005E2D6B /* SingleThemeCardView.swift */; };
 		84E087142B0F493800A879C7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E087132B0F493800A879C7 /* Tests_iOS.swift */; };
 		84E087162B0F493800A879C7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E087152B0F493800A879C7 /* Tests_iOSLaunchTests.swift */; };
 		84E087202B0F493800A879C7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0871F2B0F493800A879C7 /* Tests_macOS.swift */; };
@@ -54,6 +62,10 @@
 		845300F72B1066AC005E2D6B /* MobileDevelopCourse-IOS-1--iOS--Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MobileDevelopCourse-IOS-1--iOS--Info.plist"; sourceTree = "<group>"; };
 		845300FC2B10725C005E2D6B /* BaseColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColors.swift; sourceTree = "<group>"; };
 		845301002B107273005E2D6B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		845301042B10A414005E2D6B /* SearchDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDoctorView.swift; sourceTree = "<group>"; };
+		845301072B11CE07005E2D6B /* ThemeCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCardsView.swift; sourceTree = "<group>"; };
+		8453010B2B11D0B2005E2D6B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8453010E2B11D613005E2D6B /* SingleThemeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThemeCardView.swift; sourceTree = "<group>"; };
 		84E086FB2B0F493500A879C7 /* MobileDevelopCourse_IOS_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevelopCourse_IOS_1App.swift; sourceTree = "<group>"; };
 		84E086FC2B0F493500A879C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84E086FD2B0F493800A879C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +130,14 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		8453010A2B11CFF1005E2D6B /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				8453010B2B11D0B2005E2D6B /* Theme.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 		84E086F52B0F493500A879C7 = {
 			isa = PBXGroup;
 			children = (
@@ -133,12 +153,16 @@
 		84E086FA2B0F493500A879C7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				845301072B11CE07005E2D6B /* ThemeCardsView.swift */,
+				8453010A2B11CFF1005E2D6B /* DataModels */,
 				845300FB2B107243005E2D6B /* Colors */,
 				845300EB2B105898005E2D6B /* Fonts */,
 				84E086FB2B0F493500A879C7 /* MobileDevelopCourse_IOS_1App.swift */,
 				84E086FC2B0F493500A879C7 /* ContentView.swift */,
 				84E0873D2B0F7EFE00A879C7 /* AppointmentCardView.swift */,
 				84E086FD2B0F493800A879C7 /* Assets.xcassets */,
+				845301042B10A414005E2D6B /* SearchDoctorView.swift */,
+				8453010E2B11D613005E2D6B /* SingleThemeCardView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -344,10 +368,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				845300FD2B10725C005E2D6B /* BaseColors.swift in Sources */,
+				8453010C2B11D0B2005E2D6B /* Theme.swift in Sources */,
 				845301012B107273005E2D6B /* Colors.swift in Sources */,
 				84E087252B0F493800A879C7 /* ContentView.swift in Sources */,
+				845301052B10A414005E2D6B /* SearchDoctorView.swift in Sources */,
 				84E087232B0F493800A879C7 /* MobileDevelopCourse_IOS_1App.swift in Sources */,
 				84E0873E2B0F7EFE00A879C7 /* AppointmentCardView.swift in Sources */,
+				845301082B11CE07005E2D6B /* ThemeCardsView.swift in Sources */,
+				8453010F2B11D613005E2D6B /* SingleThemeCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +384,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				845300FE2B10725C005E2D6B /* BaseColors.swift in Sources */,
+				8453010D2B11D0B2005E2D6B /* Theme.swift in Sources */,
 				845301022B107273005E2D6B /* Colors.swift in Sources */,
 				84E087262B0F493800A879C7 /* ContentView.swift in Sources */,
+				845301062B10A414005E2D6B /* SearchDoctorView.swift in Sources */,
 				84E087242B0F493800A879C7 /* MobileDevelopCourse_IOS_1App.swift in Sources */,
 				84E0873F2B0F7EFE00A879C7 /* AppointmentCardView.swift in Sources */,
+				845301092B11CE07005E2D6B /* ThemeCardsView.swift in Sources */,
+				845301102B11D613005E2D6B /* SingleThemeCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,21 +21,32 @@ struct AppointmentCardView: View {
                             .font(.custom("Poppins-Bold",size: 16))
                         Text("General Doctor")
                             .foregroundColor(BaseColors.TextCardSecondary)
+                            .font(.custom("Poppins-Regular", size: 14))
                     }
                     Spacer()
                     Image("ArrowRight")
                 }
+                
                 Divider()
                     .overlay(BaseColors.TextCardPrimary.opacity(0.75))
-                    //.frame(height: 16)
-                HStack{
-                    Image("CalendarLogo")
-                    Text("Sunday, 12 June")
-                        .foregroundColor(BaseColors.TextCardPrimary)
-                    Spacer()
-                    Image("ClockLogo")
-                    Text("11:00 - 12:00 AM")
-                        .foregroundColor(BaseColors.TextCardPrimary)
+                
+                HStack(spacing: 12){
+                    HStack(spacing: 8){
+                        Image("CalendarLogo")
+                        Text("Sunday, 12 June")
+                            .foregroundColor(BaseColors.TextCardPrimary)
+                            .font(.custom("Poppins-Regular", size: 12))
+                        Spacer()
+                    }
+                    
+                    HStack(spacing: 8){
+                        Image("ClockLogo")
+                        Text("11:00 - 12:00 AM")
+                            .foregroundColor(BaseColors.TextCardPrimary)
+                            .font(.custom("Poppins-Regular", size: 12))
+                        Spacer()
+                    }
+                
                 }
             }
         }
