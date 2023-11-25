@@ -2,29 +2,32 @@
 
 import SwiftUI
 
-struct ContentView: View { //rename to WelcomeView
+struct WelcomeView: View {
     var body: some View {
         HStack(alignment: .top){
             VStack(alignment: .leading, spacing: 6){
                 Text("Hello,")
-                    .font(.custom("Poppins-Regular", size: 16))
+                    .font(BaseFonts.regularWelcomeCardText)
                     .foregroundColor(BaseColors.TextSecondary)
-                Text("Hi, James")
-                    .font(.custom("Poppins-Bold", size: 20))
+                    .accessibilityHidden(true)
+                Text("Hi James")
+                    .font(BaseFonts.boldText)
                     .foregroundColor(BaseColors.TextPrimary)
+                    .accessibilityValue("Hi James")
             }
             Spacer()
             Image("UserLogo")
                 .clipShape(Circle())
                 .frame(width: 56, height: 56)
+                .accessibilityHidden(true)
         }
     }
     
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WelcomeView()
     }
 }

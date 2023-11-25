@@ -1,9 +1,3 @@
-//
-//  SearchDoctorView.swift
-//  MobileDevelopCourse_IOS_1
-//
-//  Created by Admin on 24.11.2023.
-//
 
 import SwiftUI
 
@@ -12,15 +6,18 @@ struct SearchDoctorView: View {
         Button(action:{print("Search field was clicked")}){
             HStack(spacing: 12){
                 Image("SearchIcon")
+                    .accessibilityHidden(true)
                 Text("Search doctor or health issue")
-                    .font(.custom("Poppins-Regular", size: 15))
+                    .font(BaseFonts.regularText)
                     .foregroundColor(BaseColors.SearchFieldPrimary)
+                    .accessibilityHidden(true)
             }
             Spacer()
         }
         .padding(16)
         .background(BaseColors.SearchFieldBackground)
         .cornerRadius(12)
+        .accessibilityLabel("Search doctor or health issue")
     }
 }
 

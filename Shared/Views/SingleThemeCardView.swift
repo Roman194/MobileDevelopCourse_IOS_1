@@ -1,9 +1,3 @@
-//
-//  SingleThemeCardView.swift
-//  MobileDevelopCourse_IOS_1
-//
-//  Created by Admin on 25.11.2023.
-//
 
 import SwiftUI
 
@@ -18,10 +12,12 @@ struct SingleThemeCardView: View {
             }
             .background(BaseColors.ThemeCardBackground)
             .cornerRadius(100)
+            .accessibilityLabel(theme.name)
             
             Text(theme.name)
-                .font(.custom("Poppins-Regular", size: 15))
+                .font(BaseFonts.regularText)
                 .foregroundColor(BaseColors.ThemeCardPrimary)
+                .accessibilityHidden(true)
         }
     }
 }

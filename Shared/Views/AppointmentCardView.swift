@@ -1,9 +1,3 @@
-//
-//  AppointmentCardView.swift
-//  MobileDevelopCourse_IOS_1
-//
-//  Created by Admin on 23.11.2023.
-//
 
 import SwiftUI
 
@@ -15,35 +9,44 @@ struct AppointmentCardView: View {
                     Image("DoctorLogo")
                         .resizable()
                         .frame(width: 48, height: 48, alignment: Alignment.leading)
+                        .accessibilityLabel("Doctor logo")
                     VStack(alignment:.leading, spacing: 8){
                         Text("Dr. Imraan Syahir")
                             .foregroundColor(BaseColors.TextCardPrimary)
-                            .font(.custom("Poppins-Bold",size: 16))
+                            .font(BaseFonts.boldCardText)
+                            .accessibilityValue("Dr. Imraan Syahir")
                         Text("General Doctor")
                             .foregroundColor(BaseColors.TextCardSecondary)
-                            .font(.custom("Poppins-Regular", size: 14))
+                            .font(BaseFonts.regularCardText14)
+                            .accessibilityValue("General Doctor")
                     }
                     Spacer()
                     Image("ArrowRight")
+                        .accessibilityLabel("More info")
                 }
                 
                 Divider()
                     .overlay(BaseColors.TextCardPrimary.opacity(0.75))
+                    .accessibilityHidden(true)
                 
                 HStack(spacing: 12){
                     HStack(spacing: 8){
                         Image("CalendarLogo")
+                            .accessibilityHidden(true)
                         Text("Sunday, 12 June")
                             .foregroundColor(BaseColors.TextCardPrimary)
-                            .font(.custom("Poppins-Regular", size: 12))
+                            .font(BaseFonts.regularCardText12)
+                            .accessibilityValue("Sunday, 12 June")
                         Spacer()
                     }
                     
                     HStack(spacing: 8){
                         Image("ClockLogo")
+                            .accessibilityHidden(true)
                         Text("11:00 - 12:00 AM")
                             .foregroundColor(BaseColors.TextCardPrimary)
-                            .font(.custom("Poppins-Regular", size: 12))
+                            .font(BaseFonts.regularCardText12)
+                            .accessibilityValue("11:00 - 12:00 AM")
                         Spacer()
                     }
                 

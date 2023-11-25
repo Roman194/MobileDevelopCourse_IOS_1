@@ -7,7 +7,7 @@ struct MobileDevelopCourse_IOS_1App: App {
         WindowGroup {
             VStack(alignment: .leading, spacing: 20){
                 VStack(spacing: 32){
-                    ContentView()
+                    WelcomeView()
                     AppointmentCardView()
                 }
                 VStack(spacing: 24){
