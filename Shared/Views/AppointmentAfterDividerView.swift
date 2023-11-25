@@ -1,9 +1,3 @@
-//
-//  AppointmentAfterDividerView.swift
-//  MobileDevelopCourse_IOS_1
-//
-//  Created by Admin on 25.11.2023.
-//
 
 import SwiftUI
 
@@ -17,7 +11,7 @@ struct AppointmentAfterDividerView: View {
             HStack(
                 spacing: BaseNumeral.spacingAfterCalendarOrTimeIcon
             ){
-                Image("CalendarLogo")
+                Image.calendarLogo
                     .accessibilityHidden(true)
                 
                 Text(appointment.appointDate)
@@ -31,7 +25,7 @@ struct AppointmentAfterDividerView: View {
             HStack(
                 spacing: BaseNumeral.spacingAfterCalendarOrTimeIcon
             ){
-                Image("ClockLogo")
+                Image.timeLogo
                     .accessibilityHidden(true)
                 
                 Text(appointment.appointTime)

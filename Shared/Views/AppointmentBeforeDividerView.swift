@@ -1,9 +1,3 @@
-//
-//  AppointmentBeforeDividerView.swift
-//  MobileDevelopCourse_IOS_1
-//
-//  Created by Admin on 25.11.2023.
-//
 
 import SwiftUI
 
@@ -14,7 +8,7 @@ struct AppointmentBeforeDividerView: View {
         HStack(
             spacing: BaseNumeral.spacingAfterDocIcon)
         {
-            Image("DoctorLogo")
+            Image(appointment.doctorLogo)
                 .resizable()
                 .frame(
                     width: BaseNumeral.doctorIconSize,
@@ -39,7 +33,7 @@ struct AppointmentBeforeDividerView: View {
             }
             Spacer()
             
-            Image("ArrowRight")
+            Image.arrowRight
                 .accessibilityLabel(BaseText.accessibilityArrowRightIcon)
         }
     }

@@ -10,7 +10,7 @@ struct SingleThemeCardView: View {
         ){
             Button(
                 action:{
-                    print("Theme card was clicked")
+                    print(BaseText.themeCardClick)
                     
                 }
             ){

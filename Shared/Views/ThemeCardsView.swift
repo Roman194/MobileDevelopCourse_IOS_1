@@ -3,12 +3,7 @@ import SwiftUI
 
 struct ThemeCardsView: View {
     
-    let themes: [Theme] = [
-        Theme(icon: "CovidTheme", name: "Covid 19"),
-        Theme(icon: "DoctorTheme", name: "Doctor"),
-        Theme(icon: "MedicineTheme", name: "Medicine"),
-        Theme(icon: "HospitalTheme", name: "Hospital")
-    ]
+    let themes: [Theme] = Theme.themes
     
     var body: some View {
         VStack(

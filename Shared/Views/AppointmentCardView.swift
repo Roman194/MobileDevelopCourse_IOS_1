@@ -3,12 +3,7 @@ import SwiftUI
 
 struct AppointmentCardView: View {
     
-    var appointment: Appointment = Appointment(
-        doctorName: "Dr. Imraan Syahir",
-        doctorPost: "General Doctor",
-        appointDate: "Sunday, 12 June",
-        appointTime: "11:00 - 12:00 AM"
-    )
+    var appointment: Appointment = Appointment.appointmentExample
     
     var body: some View {
         Button(

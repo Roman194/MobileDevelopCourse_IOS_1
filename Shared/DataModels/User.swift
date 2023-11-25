@@ -6,3 +6,10 @@ struct User{
     var uName: String
 }
 
+extension User{
+    static let userExample = User(
+        uIcon: "UserLogo",
+        uName: "James"
+    )
+}
+

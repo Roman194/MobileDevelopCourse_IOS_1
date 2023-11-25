@@ -11,7 +11,7 @@ struct SearchDoctorView: View {
             HStack(
                 spacing: BaseNumeral.paddingAfterSearchIcon
             ){
-                Image("SearchIcon")
+                Image.searchDoctor
                     .accessibilityHidden(true)
                 Text(BaseText.searchButtonText)
                     .font(BaseFonts.regularText)
